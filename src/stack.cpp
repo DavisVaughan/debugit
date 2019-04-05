@@ -3,7 +3,7 @@ using namespace Rcpp;
 
 NumericVector get_one() {
 
-  NumericVector one(1);
+  NumericVector one(1, 1.0);
 
   // Not 1!
   one[0] = 100;
