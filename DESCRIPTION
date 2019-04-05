@@ -1,0 +1,19 @@
+Package: debugit
+Title: Debug Helpers
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Davis",
+           family = "Vaughan",
+           role = c("aut", "cre"),
+           email = "davis@rstudio.com")
+Author: Davis Vaughan
+Description: Debug helpers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
